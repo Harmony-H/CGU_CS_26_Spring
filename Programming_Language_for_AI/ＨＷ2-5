@@ -1,8 +1,0 @@
-song = """When an eel grabs your arm,
-And it causes great harm,
-That's - a moray!"""
-
-words = [word.capitalize() if word.startswith('m') else word for word in song.split()]
-result = " ".join(words)
-
-print(result)
