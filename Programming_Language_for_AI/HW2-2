@@ -1,8 +1,0 @@
-import math
-x1,y1,x2,y2=eval(input("Enter the latitude and longitude of two points in degrees:"))
-x1 = math.radians (x1)
-y1 = math.radians (y1)
-x2 = math.radians (x2)
-y2 = math.radians (y2)
-d = 6371.018*math.acos(math.sin(x1)*math.sin(x2)+math.cos(x1)*math.cos(x2)*math.cos(y1-y2))
-print(f"The great circle distance of two point is {d:.2f}km.")
